@@ -1,0 +1,15 @@
+# 忽略所有文件/目录
+/*
+!.gitignore
+
+# 仅允许进入 inbox 目录
+!inbox/
+# inbox 下仅跟踪目标文档与其依赖图片，其余全部忽略
+inbox/*
+!inbox/界面交互的评估生成.md
+!inbox/assets/
+inbox/assets/*
+!inbox/assets/malleable-interface-sharing/
+inbox/assets/malleable-interface-sharing/*
+!inbox/assets/malleable-interface-sharing/fluid-attributes.png
+!inbox/assets/malleable-interface-sharing/abstraction-spaces.png
